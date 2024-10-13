@@ -1,0 +1,59 @@
+# dependencies
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+/frontend/next-env.d.ts
+
+# Ignore compiled output in backend
+backend/dist/
+
+# Ignore node_modules in frontend
+frontend/node_modules/
+
+# Ignore node_modules in backend
+backend/node_modules/
+
+# Ignore .next folder in frontend (Next.js build output)
+frontend/.next/
+
+# Ignore any log files
+*.log
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
